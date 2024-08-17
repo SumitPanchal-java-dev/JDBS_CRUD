@@ -14,7 +14,7 @@ public class Examples {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         // Establish a connection to the database
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/example", "root", "sumit@123");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/example", "root", "Vadapav");
 
         // Queries for CRUD operations
         String createQuery = "INSERT INTO Employees (name, position, salary) VALUES (?, ?, ?)";
